@@ -2,8 +2,81 @@
 
 :root {
     font-family: 'Lato', sans-serif;
+    --main-color: black;
+}
+
+body {
+    margin:auto
 }
 
 .burger-icon {
     font-size: 1.5rem;
+}
+
+#burger-checkbox {
+    display: none;
+}
+
+header .menu {
+    display: none;
+}
+
+input:checked ~ .menu {
+    display: block;
+
+}
+header .menu a, button {
+    display: block;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+header .menu a:hover, button:hover {
+    font-weight: bold;
+}
+
+@media (min-width: 360px) {
+    header nav {
+        display: flex;
+    }
+
+    header .burger-icon {
+        display: flex;
+        align-items:center;
+        justify-content:flex-end;
+        flex :1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/banner-background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.block-title {
+    color: #86bb46;
+}
+
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    transition: color 1s;
+    background-color: #86bb46;
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
 }

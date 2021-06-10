@@ -55,8 +55,14 @@ header .banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+}
 
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
 }
 
 .block-title {

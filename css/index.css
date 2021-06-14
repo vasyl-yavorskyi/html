@@ -5,7 +5,9 @@
     --main-color: black;
     scroll-behavior: smooth;
 }
-
+.bg-light {
+    background-color: white!important;
+}
 body {
     margin:auto
 }
@@ -36,34 +38,27 @@ header .menu a:hover, button:hover {
     font-weight: bold;
 }
 
-@media (min-width: 360px) {
-    header nav {
-        display: flex;
-    }
-
-    header .burger-icon {
-        display: flex;
-        align-items:center;
-        justify-content:flex-end;
-        flex :1;
-    }
-}
 
 header .banner {
     background-image: url(../img/banner-background.png);
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    justify-content:end;
     align-items: center;
+    padding: 10px;
 }
 
 .banner-content {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px;
+    padding: 50px;
+    width: 400px;
+    margin: 50px;
+    margin-top: 80px;
 }
 
 .block-title {
@@ -86,4 +81,34 @@ header .banner {
     color: white;
     background-color: black;
     cursor: pointer;
+}
+div .services .img {
+    size: cover;
+    margin: auto;
+}
+.services-content {
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+}
+
+
+@media (min-width: 750px) {
+    .services {
+        display: flex;
+
+    }
+    .services img {
+        width: 300px;
+        height: auto;
+    }
+    .services-content {
+        display: flex;
+        align-items:flex-start;
+        justify-content:flex-end;
+        flex :1;
+        padding: 20px;
+    }
 }

@@ -3,6 +3,7 @@
 :root {
     font-family: 'Lato', sans-serif;
     --main-color: black;
+    scroll-behavior: smooth;
 }
 
 body {

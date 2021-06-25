@@ -121,3 +121,9 @@ div .services .img {
     align-items:center;
     padding: 60px;
 }
+
+.our-offer {
+    display: block;
+    width: 50%;
+    margin: auto;
+}

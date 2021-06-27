@@ -176,3 +176,9 @@ div .services .img {
     margin-top: 80px;
 
 }
+
+.aboutus { 
+    background-image: url(../img/about-us.webp);
+    min-height: 650px;
+    background-size: cover;
+}

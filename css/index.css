@@ -4,6 +4,7 @@
     font-family: 'Lato', sans-serif;
     --main-color: black;
     scroll-behavior: smooth;
+    margin: auto;
 }
 .bg-light {
     background-color: white!important;
@@ -123,7 +124,19 @@ div .services .img {
 }
 
 .our-offer {
-    display: block;
-    width: 50%;
+    border-color: greenyellow;
+    border-style: solid;
+    border-width: thin;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
     margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+   
 }

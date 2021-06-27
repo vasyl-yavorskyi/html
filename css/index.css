@@ -66,6 +66,10 @@ header .banner {
     color: #86bb46;
 }
 
+.white-font {
+    color: white;
+}
+
 .button {
     padding: 0.35em 1.2em;
     border: 0.1em;
@@ -136,7 +140,39 @@ div .services .img {
     width: 400px;
     height: 400px;
     margin: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 3px;
    
+}
+
+.carousel-button {
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.leadership {
+    background-image: url(../img/saving-the-world.png);
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+#leadership-content {
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 50px;
+    width: 400px;
+    margin: 10px;
+    margin-top: 80px;
+
 }

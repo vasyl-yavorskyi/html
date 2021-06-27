@@ -21,5 +21,16 @@ function next() {
     showCurrentArticle();
 }
 
+function previous() {
+    currentArticle--;
+    if (currentArticle < 0) currentArticle = bestArticles.length - 1;
+    showCurrentArticle();
+} 
+
+
 setInterval(next, 2500);
 showCurrentArticle();
+
+
+document.querySelector('.next').addEventListener('click', next);
+document.querySelector('.prev').addEventListener('click', previous);

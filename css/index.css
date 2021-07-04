@@ -196,4 +196,9 @@ div .services .img {
 
 .inline {
     display: inline-block;
+
+}
+
+.bold {
+    font-weight: bold;
 }

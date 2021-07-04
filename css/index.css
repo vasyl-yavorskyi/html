@@ -182,3 +182,18 @@ div .services .img {
     min-height: 650px;
     background-size: cover;
 }
+.aboutus-block {
+    background-color: white;
+    min-height: 650px;
+    background-size: cover;
+
+    padding: 50px;
+    width: 500px;
+    margin: 700px;
+    margin-top: 0px;
+
+}
+
+.inline {
+    display: inline-block;
+}

@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/testimonials.css">
     <link rel="icon" href="img/icon.png">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <title>GreenWind</title>
 </head>
 <body>
@@ -281,40 +285,87 @@
             <br>
         </div>
     </div>
-    <div class="testimonials">
-        <p id="testimonials">— TESTIMONIALS</p>
-        <h2>Words From Our Customers</h2>
-        <p>We are glad to work with individuals and businesses.</p>
-        <div class="testimonial-slider">
-            <article>
-                <p>We have been cooperating with GreenWind  for 5 years, and are completely satisfied. We ordered two 10 kW windmills for a small production workshop. There was not a single breakdown of our equipment. All scheduled warranty works were carried out on time. Thanks for promoting and simplifying the use of renewable energy sources!</p>
-                <p>October 12, 2018</p>
-                <img src="img/testimonials-susan.webp" alt="testimonials-susan">
-                <h3>Susan Rondel</h3>
-                <p>Marketing Director at EPM Production</p>
-            </article>
-            <article>
-                <p>We are engaged in the production of wood products, we have a lot of equipment, so a stable energy supply is important to us. Thanks to GreenWind, we received excellent equipment, and now we are not dependent on centralized energy supply. When we expand, we will definitely contact this reliable  company to install new wind-driven generators.</p>
-                <p>February 23, 2019</p>
-                <img src="img/testimonials-dan.webp" alt="testimonials-dan">
-                <h3>Dan Ericsson</h3>
-                <p>CEO at Wood4You</p>
-            </article>
-            <article>
-              <p>We implemented a project of a completely environmentally friendly farm, and ordered GreenWind wind-driven generators. The service of this company is top notch. The equipment works stably, in case of any problems, we can always count on help and contact the specialists of this company. I hope for a long and productive cooperation with GreenWind!</p>
-              <p>December 04, 2019</p>
-              <img src="img/testimonials-jessica.webp" alt="testimonials-jessica"> 
-              <h3>Jessica Peterson</h3>
-              <p>Chief Engineer at Eco Future</p> 
-            </article>
-            <article>
-                <p>Previously, we used wind-driven generators of another company, but due to equipment breakdowns, we decided to change the operator. We are delighted with GreenWind! They offer high-quality services, no interruptions in power generation. And the cost is attractive. We will continue to cooperate with this company in the future.</p>
-                <p>February 17, 2020</p>
-                <img src="img/testimonialc-carl.webp" alt="testimonialc-carl">
-                <h3>Carl Simmoms</h3>
-                <p>CEO at Fine House</p>
-            </article>
+    <div class="whyus row">
+        <div class="testimonials-content">
+            <p id="testimonials" class="block-title">— TESTIMONIALS</p>
+            <h2>Words From Our Customers</h2>
+            <p>We are glad to work with individuals and businesses.</p>
         </div>
+    </div>
+    <div class="testimonials">
+        <div class="slider owl-carousel">
+            <div class="card">
+               <div class="img">
+                  <img src="img/testimonials-susan.webp" alt="susana">
+               </div>
+               <div class="content">
+                  <div class="title">
+                    Susan Rondel
+                  </div>
+                  <div class="sub-title">
+                    Marketing Director at EPM
+                  </div>
+                  <p>
+                    We have been cooperating with GreenWind  for 5 years, and are completely satisfied. We ordered two 10 kW windmills for a small production workshop. There was not a single breakdown of our equipment. All scheduled warranty works were carried out on time. Thanks for promoting and simplifying the use of renewable energy sources!
+                  </p>
+                  <p>October 12, 2018</p>
+                  
+               </div>
+            </div>
+            <div class="card">
+               <div class="img">
+                  <img src="img/testimonials-dan.webp" alt="dan">
+               </div>
+               <div class="content">
+                  <div class="title">
+                    Dan Ericsson
+                  </div>
+                  <div class="sub-title">
+                    CEO at Wood4You
+                  </div>
+                  <p>
+                    We are engaged in the production of wood products, we have a lot of equipment, so a stable energy supply is important to us. Thanks to GreenWind, we received excellent equipment, and now we are not dependent on centralized energy supply. When we expand, we will definitely contact this reliable  company to install new wind-driven generators.
+                  </p>
+                  <p>February 23, 2019</p>
+                  
+               </div>
+            </div>
+            <div class="card">
+               <div class="img">
+                  <img src="img/testimonials-jessica.webp" alt="jessica">
+               </div>
+               <div class="content">
+                  <div class="title">
+                    Jessica Peterson
+                  </div>
+                  <div class="sub-title">
+                    Chief Engineer at Eco Future
+                  </div>
+                  <p>
+                    We implemented a project of a completely environmentally friendly farm, and ordered GreenWind wind-driven generators. The service of this company is top notch. The equipment works stably, in case of any problems, we can always count on help and contact the specialists of this company. I hope for a long and productive cooperation with GreenWind!
+                  </p>
+                  <p>December 04, 2019</p>
+               </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                   <img src="img/testimonialc-carl.webp" alt="carl">
+                </div>
+                <div class="content">
+                   <div class="title">
+                    Carl Simmoms
+                   </div>
+                   <div class="sub-title">
+                    CEO at Fine House
+                   </div>
+                   <p>
+                    Previously, we used wind-driven generators of another company, but due to equipment breakdowns, we decided to change the operator. We are delighted with GreenWind! They offer high-quality services, no interruptions in power generation. And the cost is attractive. We will continue to cooperate with this company in the future.
+                   </p>
+                   <p>February 17, 2020</p>
+                </div>
+             </div>
+         </div>
+       
     </div>
     <div class="contacts">
         <div class ='contacts-block'>
@@ -378,5 +429,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src ="js/carousel.js"></script>
     <script src='js/list.js'></script>
+    <script>
+        $(".slider").owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 2000, //2000ms = 2s;
+          autoplayHoverPause: true,
+        });
+     </script>
 </body>
 </html>

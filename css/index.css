@@ -264,7 +264,19 @@ div .services .img {
     align-items: center;
     
 }
-
+.testimonials-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    padding: 60px;
+}
+.testimonials {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
 @media (min-width: 750px) {
     .services {
         display: flex;

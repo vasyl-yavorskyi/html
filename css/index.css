@@ -233,18 +233,38 @@ div .services .img {
 .fblock1 {
     width: min-content;
 }
-.fblock2 {
-    
-}
+
 .fblock3 {
     width: min-content;
 }
 .fblock4 {
     width:min-content;
-   
-.fblock5 {
-    width: min-content;
+}   
+
+
+.contacts {
+    background-color:ghostwhite;
+    display: flex;
+    justify-content:space-evenly;
+    
 }
+.contacts-block {
+   width: 438px;
+   margin: auto;
+    margin-top: 50px;
+}
+.contact-form {
+    width: 400px;
+    height: 300px;
+  
+    margin:auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 @media (min-width: 750px) {
     .services {
         display: flex;
@@ -282,4 +302,4 @@ div .services .img {
         flex-direction: column;
         
     }
- 
+}

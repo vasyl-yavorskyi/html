@@ -169,6 +169,7 @@ div .services .img {
     background-image: url(../img/about-us.webp);
     min-height: 550px;
     background-size: cover;
+    background-position: center;
 }
 .aboutus-block {
     background-color: white;
@@ -383,6 +384,14 @@ div .services .img {
     flex-direction: column;
     align-items:center;
 
+}
+
+.wrapper {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   padding: 100px;
+   margin: auto;
 }
 @media (min-width: 750px) {
     .services {

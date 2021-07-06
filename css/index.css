@@ -290,13 +290,27 @@ div .services .img {
     flex-direction: row;
     align-items:center;
 }
-
+.our-card {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items:center;
+}
 .team-card {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items:center;
     
+}
+
+.start-card {
+  
+    width: min-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:flex-end;
 }
 .brands {
     width: 100%;
@@ -357,6 +371,18 @@ div .services .img {
 
 .brands_next {
     right: 40px
+}
+
+.discover-benefits {
+    min-height: 550px;
+    background-color:#28283a ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+
 }
 @media (min-width: 750px) {
     .services {
